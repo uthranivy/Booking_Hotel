@@ -1,0 +1,29 @@
+.loader {  
+    border: 12px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 12px solid #444444;
+    width: 70px;
+    height: 70px;
+    margin: 1em;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     animation: load 1s linear infinite; 
+     
+} 
+#sectionload
+{
+    width: 100%;
+    height: 100vh; 
+   position: absolute;
+   left: 50%;
+   margin-left: -50px;
+   top: 50%;
+   margin-top: -50px;
+}
+
+@keyframes load { 
+    100% { 
+        transform: rotate(360deg); 
+    } 
+} 

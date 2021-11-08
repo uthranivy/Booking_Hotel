@@ -1,0 +1,60 @@
+#logo
+{
+    height: 60px; 
+    width: 60px;
+}
+.socialmedia
+{
+    height: 20px;
+    width: 22px;
+}
+.hotelimg
+{
+    max-height: 300px;
+    max-width: 270px;
+}
+#paymenthotel
+{
+    background-color:  #e0e0e0; 
+    margin: 0px;
+} 
+.htldetail
+{
+    background-color: rgb(132, 136, 139);
+    width: 50%;
+    height: 20%;
+    margin: 2% auto;
+    display: flex;
+    align-items: center;
+}
+.booksdetail
+{
+    margin-top: 1%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+}
+.boxamount
+{
+    margin: 2%;
+    border: 2px solid  black;
+    padding: 2%;
+    box-shadow: 2px;
+} 
+#hotel_booked
+{
+    margin-top:10%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.ticket_details
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: black 1px solid;
+    border-radius: 5px;
+    margin: 0% 2%;
+    background-color: rosybrown;
+}
