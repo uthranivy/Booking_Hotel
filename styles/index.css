@@ -1,4 +1,4 @@
-#search-city {
+ #search-city {
     position: absolute;
     top: 50%;
     left: 36%; 
@@ -12,6 +12,12 @@
 }
 #city-cards {
     display: flex;
+    justify-content: space-evenly;
+    padding: 4% 0%;
+}
+#city-cards-two
+{
+     display: none;
     justify-content: space-evenly;
     padding: 4% 0%;
 }
@@ -43,7 +49,24 @@
     position: relative;
 }
 
-#input {
+#getvalue
+{
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
+#cityList
+{
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 12px;
+    width: 100%;
+    list-style: none;
+}
+#input_search {
     border: 1px solid transparent;
     background-color: #f1f1f1;
     padding: 10px;
@@ -51,7 +74,7 @@
     border-radius: 12px;
     width: 100%;
 }
-#input:focus {
+#input_search:focus {
     outline: none;
 }
 .overlay {
