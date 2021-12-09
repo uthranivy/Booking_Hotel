@@ -9,3 +9,7 @@ let enableOrDisablePayNowButton = () => {
 };
 
 enableOrDisablePayNowButton();
+
+function alert_msg(){
+  alert("Hi your booking is successfull!")
+}
